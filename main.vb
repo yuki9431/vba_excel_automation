@@ -7,7 +7,7 @@ Sub moveA1_zoom100()
 
     For Each cell In Worksheet
         cell.Select
-        ActiveSheet.Zoom = 100
+        ActiveWindow.Zoom = 100
         cell.Range("A1").Select
     Next
 Sheets(1).Select
